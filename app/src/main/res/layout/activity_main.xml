@@ -1,0 +1,83 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:columnCount="1"
+    android:rowCount="7"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/nanodegree_apps" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:width="@dimen/app_button_width"
+        android:textColor="@color/white"
+        android:background="@color/udacity_orange"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/spotify_streamer_button"
+        android:layout_marginTop="@dimen/app_button_margin_top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:width="@dimen/app_button_width"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@color/udacity_orange"
+        android:id="@+id/scores_app_button"
+        android:layout_marginTop="@dimen/app_button_margin_top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:background="@color/udacity_orange"
+        android:id="@+id/library_app_button"
+        android:width="@dimen/app_button_width"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/app_button_margin_top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:width="@dimen/app_button_width"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@color/udacity_orange"
+        android:id="@+id/build_it_bigger_button"
+        android:layout_marginTop="@dimen/app_button_margin_top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:width="@dimen/app_button_width"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@color/udacity_orange"
+        android:id="@+id/xyz_reader_button"
+        android:layout_marginTop="@dimen/app_button_margin_top"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:width="@dimen/app_button_width"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/app_button_margin_top"
+        android:background="@color/dark_red"
+        android:id="@+id/capstone_button"/>
+
+</GridLayout>
